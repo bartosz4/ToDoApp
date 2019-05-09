@@ -4,10 +4,25 @@ input{
     font-size: 20px;
 }
 
+input.checkbox  {
+    width : 15px ;
+    height : 1.5em ;
+}
+.form input {
+    box-shadow: 5px 5px 10px grey;
+    border: 1px solid white;
+}
 .form{
     font-size: 20px;
 }
 
+.form label{
+    font-size: 35px;
+}
+
+.form label.important{
+    color: #06B995;
+}
 .form button{
     padding: 3px 10px;
     text-transform: uppercase;

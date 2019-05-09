@@ -11,31 +11,39 @@ class App extends Component {
       {
         id: 0,
         text: 'zrobic aplikacje ToDo',
-        date: '2019-05-06',
+        date: '2019-05-09',
         important: true,
         active: true,
         finishDate: null,
       },
       {
         id: 1,
-        text: 'zdobyc prace',
-        date: '2019-05-31',
+        text: 'zrobić porządek w szafie',
+        date: '2019-05-11',
         important: false,
         active: true,
         finishDate: null,
       },
       {
         id: 2,
-        text: 'zrobic aplikacje ToDo',
-        date: '2019-06-06',
-        important: true,
+        text: 'posprzątać piwnice',
+        date: '2019-05-31',
+        important: false,
         active: true,
         finishDate: null,
       },
       {
         id: 3,
-        text: 'zdobyc prace',
-        date: '2019-05-31',
+        text: 'znależć miejsce na wakacje',
+        date: '2019-06-31',
+        important: true,
+        active: true,
+        finishDate: null,
+      },
+      {
+        id: 4,
+        text: 'pojechać w góry',
+        date: '2019-08-31',
         important: true,
         active: true,
         finishDate: null,
@@ -90,7 +98,7 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <h1>Aplikacja To-Do</h1>
+        <h1>APLIKACJA To-Do</h1>
         <AddTask add = {this.addTask}/>
         <TaskList
           tasks = {this.state.tasks}

@@ -1,4 +1,55 @@
 .App {
   text-align: center;
-    padding: 15px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 90%;
+  height: 90%;
+}
+
+.App h1{
+  color: #55595C;
+  font-size: 45px;
+}
+
+.active, .done{
+  width: 30vw;
+  height: 60vh;
+  border: 1px solid #55595C;
+  border-radius: 35px;
+  box-shadow: 5px 5px 10px grey;
+  background: #55595C;
+  color: white;
+  padding: 15px;
+}
+.active h1{
+  color: white;
+}
+.done{
+  margin-left: 30px;
+}
+
+.task-list{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 10px;
+}
+.add{
+  font-size: 20px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 35px;
+  background: white;
+  padding: 10px;
+}
+.button{
+  margin-left: 5px;
+  border: 1px solid white;
+  border-radius: 35px;
+  background: white;
+}
+
+.button:hover{
+  background: red;
+  border: 1px solid red;
+  color: white;
 }
